@@ -1,0 +1,81 @@
+
+<html lang="en">
+<head>
+  <!-- Chosen Palette: Dark/Light Responsive Palette -->
+  <!-- Application Structure Plan: The application uses a classic hub-and-spoke information architecture. The main page serves as the central hub, presenting a grid of all projects. This allows users to get a quick overview. Each project card is a spoke, linking to a dedicated detail page for that specific assignment. A clear back-link on each assignment page allows for easy return navigation to the hub. This structure is highly intuitive and standard for portfolios, ensuring excellent usability and straightforward exploration of the user's work. -->
+  <!-- Visualization & Content Choices: Report Info: A collection of 9 web development assignments. -> Goal: Organize and present projects for user exploration. -> Viz/Presentation Method: A responsive grid of clickable cards (implemented with HTML and styled with the provided CSS). Each card contains a consistent thumbnail image and a descriptive title. -> Interaction: Standard hyperlinks (`<a>` tags) navigate the user from the main grid to individual project pages. -> Justification: This card-based grid is the most effective and universally understood method for presenting a visual portfolio, allowing for easy scanning and selection. -> Library/Method: Standard HTML/CSS. -->
+  <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Web Dev Portfolio</title>
+  <base href="/mhiles-bring-it-all-together/">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>My Web Development Portfolio</h1>
+      <p class="tagline">Responsive assignments and projects</p>
+    </div>
+  </header>
+  <nav class="main-nav">
+    <div class="container">
+      <a href="index.html" class="brand">Home</a>
+      <a href="IA1/">IA1</a>
+      <a href="IA2/">IA2</a>
+      <a href="IA3/">IA3</a>
+      <a href="IA4/">IA4</a>
+      <a href="IA5/">IA5</a>
+      <a href="IA6/">IA6</a>
+      <a href="IA7/">IA7</a>
+      <a href="IA8/">IA8</a>
+      <a href="IA9/">IA9</a>
+    </div>
+  </nav>
+  <main class="container">
+    <section class="grid">
+      <a class="card" href="IA1/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 2: Individual Assignment 1</h3>
+      </a>
+      <a class="card" href="IA2/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 3: Individual Assignment 2</h3>
+      </a>
+      <a class="card" href="IA3/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 5: Individual Assignment 3</h3>
+      </a>
+      <a class="card" href="IA4/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 6: Individual Assignment 4</h3>
+      </a>
+      <a class="card" href="IA5/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 7: Individual Assignment 5</h3>
+      </a>
+      <a class="card" href="IA6/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 8: Individual Assignment 6 - CSS Transforms and Filters</h3>
+      </a>
+      <a class="card" href="IA7/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Lesson 9: Individual Assignment 7 - Extending Bootstrap</h3>
+      </a>
+      <a class="card" href="IA8/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Individual Assignment 8 – Under Construction</h3>
+      </a>
+      <a class="card" href="IA9/">
+        <img src="assets/img/default-thumb.jpg" alt="Assignment thumbnail">
+        <h3>Individual Assignment 9 – Coming Soon</h3>
+      </a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Mark H | Email: mark.h.dev@example.com | Phone: (123) 456-7890 | Address: 123 Web Dev Lane, Anytown, CA 90210</p>
+    </div>
+  </footer>
+</body>
+</html>
